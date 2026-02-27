@@ -14,6 +14,7 @@ public class Movie
 
     [DataType(DataType.Date)]
     [Required]
+    [Display(Name = "Changed Release Date")]
     public DateTime ReleaseDate { get; set; }
 
     [Range(1, 100)]
